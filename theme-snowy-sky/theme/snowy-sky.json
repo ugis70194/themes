@@ -299,35 +299,42 @@
 			"name": "Number",
 			"scope": "constant.numeric",
 			"settings": {
-				"foreground": "#A3DDFF"
+				"foreground": "#C3FDB8"
 			}
 		},
 		{
 			"name": "Built-in constant",
 			"scope": "constant.language",
 			"settings": {
-				"foreground": "#8FC9FF"
+				"foreground": "#AE81FF"
 			}
 		},
 		{
 			"name": "User-defined constant",
 			"scope": "constant.character, constant.other",
 			"settings": {
-				"foreground": "#8FC9FF"
+				"foreground": "#AE81FF"
 			}
 		},
 		{
 			"name": "Variable",
 			"scope": "variable",
 			"settings": {
-				"foreground": "#7bb5ff"
+				"foreground": "#5CB3FF"//"#66D9EF" 
 			}
 		},
 		{
 			"name": "Keyword",
 			"scope": "keyword",
 			"settings": {
-				"foreground": "#5D97FF"
+				"foreground": "#06AC72"//"#088A68"//"#04B486"
+			}
+		},
+		{
+			"name": "Keyword operator",
+			"scope": "keyword.operator",
+			"settings": {
+				"foreground": "#82CAFF" //"#5D97FF"
 			}
 		},
 		{
@@ -459,13 +466,19 @@
 		{
 			"scope": "constant.numeric.line-number.find-in-files - match",
 			"settings": {
-				"foreground": "#8FC9FF"
+				"foreground": "#AE81FFA0"
 			}
 		},
 		{
 			"scope": "entity.name.filename.find-in-files",
 			"settings": {
 				"foreground": "#E6DB74"
+			}
+		},
+		{
+			"scope": "entity.name.function",
+			"settings": {
+				"foreground": "#3EA99F"
 			}
 		},
 		{
@@ -538,8 +551,26 @@
 			"name": "this.self",
 			"scope": "variable.language",
 			"settings": {
-				"foreground": "#2869EA"
+				"foreground": "#FD971F"
 			}
-		}
+		},
+		{
+			"scope" : "meta.object-literal.key.js",
+			"settings" : {
+				"foreground": "#5CB3FF"
+			}
+		},
+		{
+			"scope" : "variable.other.readwrite.js",
+			"settings" : {
+				"foreground": "#fcfcfc"
+			}
+		},
+		{
+			"scope" : "variable.other.object.js",
+			"settings" : {
+				"foreground": "#fcfcfc"
+			}
+		},
 	]
 }
